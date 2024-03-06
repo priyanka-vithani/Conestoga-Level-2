@@ -213,4 +213,57 @@ public class Tests
         // Assert
         Assert.That(actual, Is.EqualTo(expected));
     }
+
+    //-	Three (3) tests for verifying an invalid response (other than a zero length)
+
+    [Test]
+    public void AnalyzeTriangle_OneSideIsGreaterThanTwoSidesAddition_ReturnInvalid()
+    {
+        // Arrange
+        int firstSide = 1;
+        int secondSide = 2;
+        int thirdSide = 5;
+
+        string expected = "A triangle cannot be formed";
+
+        // Act
+        string actual = TriangleSolver.Triangle.AnalyzeTriangle(firstSide, secondSide, thirdSide);
+
+        // Assert
+        Assert.That(actual, Is.EqualTo(expected));
+    }
+
+    [Test]
+    public void AnalyzeTriangle_OneSideIsEqualTwoSidesAddition_ReturnInvalid()
+    {
+        // Arrange
+        int firstSide = 1;
+        int secondSide = 2;
+        int thirdSide = 3;
+
+        string expected = "A triangle cannot be formed";
+
+        // Act
+        string actual = TriangleSolver.Triangle.AnalyzeTriangle(firstSide, secondSide, thirdSide);
+
+        // Assert
+        Assert.That(actual, Is.EqualTo(expected));
+    }
+
+    [Test]
+    public void AnalyzeTriangle_AnyOneSideIsNegative_ReturnInvalid()
+    {
+        // Arrange
+        int firstSide = -1;
+        int secondSide = 8;
+        int thirdSide = 9;
+
+        string expected = "A triangle cannot be formed";
+
+        // Act
+        string actual = TriangleSolver.Triangle.AnalyzeTriangle(firstSide, secondSide, thirdSide);
+
+        // Assert
+        Assert.That(actual, Is.EqualTo(expected));
+    }
 }
