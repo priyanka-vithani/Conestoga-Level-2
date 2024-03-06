@@ -13,7 +13,7 @@ namespace TriangleSolver
             string output;
             if ((firstSide == 0) || (secondSide == 0) || (thirdSide == 0))
             {
-                output = "INVALID triangle - a zero was entered";
+                output = "At least one side entered had a zero - invalid triangle";
                 return output;
             }
 
@@ -21,16 +21,16 @@ namespace TriangleSolver
                 {
                     if ((firstSide == secondSide) && (firstSide == thirdSide) && (secondSide == thirdSide))
                     {
-                        output = "A triangle is formed and it is an EQUILATERAL";
+                        output = "An equilateral triangle is formed";
                     }
                     else if ((firstSide == secondSide) || (secondSide == thirdSide) || (thirdSide == firstSide))
                     {
-                        output = "A triangle is formed and it is an ISOSCELES";
+                        output = "An isosceles triangle is formed";
 
                     }
                     else
                     {
-                        output = "A triangle is formed and it is a SCALENE";
+                        output = "A scalene triangle is formed";
 
                     }
 
@@ -38,7 +38,7 @@ namespace TriangleSolver
                 }
                 else
                 {
-                    output = "A triangle is not formed based on the input values";
+                    output = "A triangle cannot be formed";
                 }
 
             

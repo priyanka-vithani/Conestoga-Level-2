@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.2.32630.192
+VisualStudioVersion = 17.5.002.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TriangleSolver", "TriangleSolver\TriangleSolver.csproj", "{E91297F3-BEAC-4D77-8BEF-B6DA0646079E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TriangleTestCases", "TriangleTestCases\TriangleTestCases.csproj", "{F07D5E75-8D9A-4C08-8DD7-1B308F8F7A78}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TriangleSolver", "TriangleSolver\TriangleSolver.csproj", "{4DCC36FD-6703-441A-8D8F-BD7BA28AD04F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +13,19 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{E91297F3-BEAC-4D77-8BEF-B6DA0646079E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{E91297F3-BEAC-4D77-8BEF-B6DA0646079E}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{E91297F3-BEAC-4D77-8BEF-B6DA0646079E}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{E91297F3-BEAC-4D77-8BEF-B6DA0646079E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F07D5E75-8D9A-4C08-8DD7-1B308F8F7A78}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F07D5E75-8D9A-4C08-8DD7-1B308F8F7A78}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F07D5E75-8D9A-4C08-8DD7-1B308F8F7A78}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F07D5E75-8D9A-4C08-8DD7-1B308F8F7A78}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4DCC36FD-6703-441A-8D8F-BD7BA28AD04F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4DCC36FD-6703-441A-8D8F-BD7BA28AD04F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4DCC36FD-6703-441A-8D8F-BD7BA28AD04F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4DCC36FD-6703-441A-8D8F-BD7BA28AD04F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {4C4582DC-94EE-4F65-8B7A-E691339D63D1}
+		SolutionGuid = {A4D582E3-810E-44EE-AEA8-7EE7BF620CB4}
 	EndGlobalSection
 EndGlobal
