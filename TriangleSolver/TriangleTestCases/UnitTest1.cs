@@ -160,4 +160,57 @@ public class Tests
         // Assert
         Assert.That(actual, Is.EqualTo(expected));
     }
+
+    //-	Three (3) tests for verifying a zero length for one or more sides
+
+    [Test]
+    public void AnalyzeTriangle_OneSideIsZero_ReturnInvalid()
+    {
+        // Arrange
+        int firstSide = 0;
+        int secondSide = 3;
+        int thirdSide = 9;
+
+        string expected = "At least one side entered had a zero - invalid triangle";
+
+        // Act
+        string actual = TriangleSolver.Triangle.AnalyzeTriangle(firstSide, secondSide, thirdSide);
+
+        // Assert
+        Assert.That(actual, Is.EqualTo(expected));
+    }
+
+    [Test]
+    public void AnalyzeTriangle_TwoSidesAreZero_ReturnInvalid()
+    {
+        // Arrange
+        int firstSide = 5;
+        int secondSide = 0;
+        int thirdSide = 0;
+
+        string expected = "At least one side entered had a zero - invalid triangle";
+
+        // Act
+        string actual = TriangleSolver.Triangle.AnalyzeTriangle(firstSide, secondSide, thirdSide);
+
+        // Assert
+        Assert.That(actual, Is.EqualTo(expected));
+    }
+
+    [Test]
+    public void AnalyzeTriangle_ZeroForAllSides_ReturnInvalid()
+    {
+        // Arrange
+        int firstSide = 0;
+        int secondSide = 0;
+        int thirdSide = 0;
+
+        string expected = "At least one side entered had a zero - invalid triangle";
+
+        // Act
+        string actual = TriangleSolver.Triangle.AnalyzeTriangle(firstSide, secondSide, thirdSide);
+
+        // Assert
+        Assert.That(actual, Is.EqualTo(expected));
+    }
 }
