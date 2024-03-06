@@ -12,3 +12,17 @@
 /Users/priyankavithani/Documents/ConestogaStudy/QA/TriangleSolver/TriangleSolver/obj/Debug/net7.0/TriangleSolver.pdb
 /Users/priyankavithani/Documents/ConestogaStudy/QA/TriangleSolver/TriangleSolver/obj/Debug/net7.0/TriangleSolver.genruntimeconfig.cache
 /Users/priyankavithani/Documents/ConestogaStudy/QA/TriangleSolver/TriangleSolver/obj/Debug/net7.0/ref/TriangleSolver.dll
+/Users/priyankavithani/Documents/ConestogaStudy/QA/Conestoga-Level-2/TriangleSolver/TriangleSolver/bin/Debug/net7.0/TriangleSolver
+/Users/priyankavithani/Documents/ConestogaStudy/QA/Conestoga-Level-2/TriangleSolver/TriangleSolver/bin/Debug/net7.0/TriangleSolver.deps.json
+/Users/priyankavithani/Documents/ConestogaStudy/QA/Conestoga-Level-2/TriangleSolver/TriangleSolver/bin/Debug/net7.0/TriangleSolver.runtimeconfig.json
+/Users/priyankavithani/Documents/ConestogaStudy/QA/Conestoga-Level-2/TriangleSolver/TriangleSolver/bin/Debug/net7.0/TriangleSolver.dll
+/Users/priyankavithani/Documents/ConestogaStudy/QA/Conestoga-Level-2/TriangleSolver/TriangleSolver/bin/Debug/net7.0/TriangleSolver.pdb
+/Users/priyankavithani/Documents/ConestogaStudy/QA/Conestoga-Level-2/TriangleSolver/TriangleSolver/obj/Debug/net7.0/TriangleSolver.GeneratedMSBuildEditorConfig.editorconfig
+/Users/priyankavithani/Documents/ConestogaStudy/QA/Conestoga-Level-2/TriangleSolver/TriangleSolver/obj/Debug/net7.0/TriangleSolver.AssemblyInfoInputs.cache
+/Users/priyankavithani/Documents/ConestogaStudy/QA/Conestoga-Level-2/TriangleSolver/TriangleSolver/obj/Debug/net7.0/TriangleSolver.AssemblyInfo.cs
+/Users/priyankavithani/Documents/ConestogaStudy/QA/Conestoga-Level-2/TriangleSolver/TriangleSolver/obj/Debug/net7.0/TriangleSolver.csproj.CoreCompileInputs.cache
+/Users/priyankavithani/Documents/ConestogaStudy/QA/Conestoga-Level-2/TriangleSolver/TriangleSolver/obj/Debug/net7.0/TriangleSolver.dll
+/Users/priyankavithani/Documents/ConestogaStudy/QA/Conestoga-Level-2/TriangleSolver/TriangleSolver/obj/Debug/net7.0/refint/TriangleSolver.dll
+/Users/priyankavithani/Documents/ConestogaStudy/QA/Conestoga-Level-2/TriangleSolver/TriangleSolver/obj/Debug/net7.0/TriangleSolver.pdb
+/Users/priyankavithani/Documents/ConestogaStudy/QA/Conestoga-Level-2/TriangleSolver/TriangleSolver/obj/Debug/net7.0/TriangleSolver.genruntimeconfig.cache
+/Users/priyankavithani/Documents/ConestogaStudy/QA/Conestoga-Level-2/TriangleSolver/TriangleSolver/obj/Debug/net7.0/ref/TriangleSolver.dll
